@@ -21,3 +21,14 @@ canvas{
     box-shadow: 10px 10px 10px white;
     border-radius: 10px;
 }
+
+.copyright_footer{
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    line-height: 2.5;
+    background-color: rgb(12, 12, 48);
+    color: white;
+    font-size: 18px;
+}
