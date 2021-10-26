@@ -43,7 +43,9 @@ function draw(){
             percent = floor(objects[i].confidence * 100);
 
             //display the label
+            textSize(18);
             text(objects[i].label + " (" + percent + "%) ", objects[i].x + 15 , objects[i].y + 15);
+
 
             //unset the color
             noFill();
